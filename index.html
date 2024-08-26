@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Погодный виджет</title>
+  </head>
+  <body>
+    <div class="weather-widget">
+      <div class="current-weather">
+        <h2 id="city"></h2>
+        <p id="date"></p>
+        <div class="temperature" id="temperature"></div>
+        <div class="weather-icon">
+          <img id="weather-icon" alt="weather icon" />
+        </div>
+        <p id="description"></p>
+      </div>
+      <div class="forecast">
+        <h3>Прогноз на несколько дней</h3>
+        <div id="daily-forecast" class="forecast-daily"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
